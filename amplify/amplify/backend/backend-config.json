@@ -1,0 +1,10 @@
+{
+  "auth": {
+    "pups908929a2": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false
+    }
+  }
+}
