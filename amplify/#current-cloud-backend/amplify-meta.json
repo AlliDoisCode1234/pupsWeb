@@ -1,15 +1,37 @@
 {
   "providers": {
     "awscloudformation": {
-      "AuthRoleName": "amplify-amplify9676e29a48624-staging-124513-authRole",
-      "UnauthRoleArn": "arn:aws:iam::053463520465:role/amplify-amplify9676e29a48624-staging-124513-unauthRole",
-      "AuthRoleArn": "arn:aws:iam::053463520465:role/amplify-amplify9676e29a48624-staging-124513-authRole",
-      "Region": "us-east-2",
-      "DeploymentBucketName": "amplify-amplify9676e29a48624-staging-124513-deployment",
-      "UnauthRoleName": "amplify-amplify9676e29a48624-staging-124513-unauthRole",
-      "StackName": "amplify-amplify9676e29a48624-staging-124513",
-      "StackId": "arn:aws:cloudformation:us-east-2:053463520465:stack/amplify-amplify9676e29a48624-staging-124513/a4d55500-7442-11eb-aeca-0602fcd3b164",
-      "AmplifyAppId": "dklmhy89cdrfw"
+      "AuthRoleName": "amplify-pweb-dev-130022-authRole",
+      "UnauthRoleArn": "arn:aws:iam::053463520465:role/amplify-pweb-dev-130022-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::053463520465:role/amplify-pweb-dev-130022-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-pweb-dev-130022-deployment",
+      "UnauthRoleName": "amplify-pweb-dev-130022-unauthRole",
+      "StackName": "amplify-pweb-dev-130022",
+      "StackId": "arn:aws:cloudformation:us-east-1:053463520465:stack/amplify-pweb-dev-130022/ad0395d0-746e-11eb-9090-0e1ad0c392f9",
+      "AmplifyAppId": "du37dspicomk9"
+    }
+  },
+  "auth": {
+    "pweb6076767f": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false,
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-pweb-dev-130022-deployment/amplify-cfn-templates/auth/pweb6076767f-cloudformation-template.yml",
+        "logicalId": "authpweb6076767f"
+      },
+      "lastPushTimeStamp": "2021-02-21T18:08:34.699Z",
+      "output": {
+        "UserPoolId": "us-east-1_wXH2XNNf8",
+        "AppClientIDWeb": "7r4h6ak1vb83ikd0jnhg1il3am",
+        "AppClientID": "anasmdm9agaq5sle8fvashvai",
+        "IdentityPoolId": "us-east-1:00d9e0b3-62f6-4358-9166-f797e2b80952",
+        "IdentityPoolName": "pweb6076767f_identitypool_6076767f__dev",
+        "UserPoolName": "pweb6076767f_userpool_6076767f"
+      },
+      "lastPushDirHash": "oyCyhnAxF/X/MIFazkHlConREps="
     }
   }
 }

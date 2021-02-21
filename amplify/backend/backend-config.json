@@ -1,6 +1,6 @@
 {
   "auth": {
-    "pups908929a2": {
+    "pweb6076767f": {
       "service": "Cognito",
       "providerPlugin": "awscloudformation",
       "dependsOn": [],
