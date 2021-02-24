@@ -13,10 +13,13 @@
     "firebase": "^8.2.1",
     "graphiql": "^1.0.0-alpha.13",
     "graphql": "^15.5.0",
+    "node-gyp": "^7.1.2",
     "node-rsa": "^1.1.1",
+    "python": "0.0.4",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-scripts": "4.0.1",
+    "rebuild": "^0.1.2",
     "web-vitals": "^0.2.4"
   },
   "scripts": {

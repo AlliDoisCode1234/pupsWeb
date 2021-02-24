@@ -26,7 +26,7 @@
         "IdentityPoolName": "pweb6076767f_identitypool_6076767f__dev",
         "UserPoolName": "pweb6076767f_userpool_6076767f"
       },
-      "lastPushTimeStamp": "2021-02-24T07:09:46.641Z",
+      "lastPushTimeStamp": "2021-02-24T08:41:47.626Z",
       "providerMetadata": {
         "s3TemplateURL": "https://s3.amazonaws.com/amplify-pweb-dev-130022-deployment/amplify-cfn-templates/auth/pweb6076767f-cloudformation-template.yml",
         "logicalId": "authpweb6076767f"
@@ -40,24 +40,22 @@
       "output": {
         "authConfig": {
           "defaultAuthentication": {
-            "authenticationType": "API_KEY",
-            "apiKeyConfig": {
-              "apiKeyExpirationDays": 7,
-              "description": "pups"
+            "authenticationType": "AMAZON_COGNITO_USER_POOLS",
+            "userPoolConfig": {
+              "userPoolId": "authpweb6076767f"
             }
           },
           "additionalAuthenticationProviders": []
         },
         "GraphQLAPIIdOutput": "ekzaa3cbbbhg7nsahjoepb7gzu",
-        "GraphQLAPIEndpointOutput": "https://34sdyf7yzbd2pf6s4ksfhzkt5q.appsync-api.us-east-1.amazonaws.com/graphql",
-        "GraphQLAPIKeyOutput": "da2-yxyryizvbzcqjjvaltt54oqdwy"
+        "GraphQLAPIEndpointOutput": "https://34sdyf7yzbd2pf6s4ksfhzkt5q.appsync-api.us-east-1.amazonaws.com/graphql"
       },
       "providerMetadata": {
         "s3TemplateURL": "https://s3.amazonaws.com/amplify-pweb-dev-130022-deployment/amplify-cfn-templates/api/cloudformation-template.json",
         "logicalId": "apipweb"
       },
-      "lastPushTimeStamp": "2021-02-24T07:09:46.964Z",
-      "lastPushDirHash": "dtrniWGxjhKYVM7Ar99+dcbIWKY="
+      "lastPushTimeStamp": "2021-02-24T08:41:47.651Z",
+      "lastPushDirHash": "9Cf3GTjMIz4P4iF6lEKrbD4dGtw="
     }
   },
   "storage": {
@@ -68,7 +66,7 @@
         "s3TemplateURL": "https://s3.amazonaws.com/amplify-pweb-dev-130022-deployment/amplify-cfn-templates/storage/s3-cloudformation-template.json",
         "logicalId": "storageimagestorage"
       },
-      "lastPushTimeStamp": "2021-02-24T07:09:46.653Z",
+      "lastPushTimeStamp": "2021-02-24T08:41:47.641Z",
       "output": {
         "BucketName": "pwebfcffac263cc7469db5b5f796c816c736130022-dev",
         "Region": "us-east-1"

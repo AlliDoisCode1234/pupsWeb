@@ -1,6 +1,19 @@
-type Note @model {
-  id: ID!
-  name: String!
-  description: String
-  image: String
+type Post
+  @model(subscriptions: { level: public })
+  @auth(
+    rules: [
+      {
+        allow: owner
+        ownerField: "owner"
+        provider: userPools
+        operations: [read, create]
+      }
+      { allow: private, provider: userPools, operations: [read] }
+    ]
+  ) {
+  type: String! # always set to 'post'. used in the SortByTimestamp GSI
+  id: ID
+  content: String!
+  owner: String
+  timestamp: Int!
 }
