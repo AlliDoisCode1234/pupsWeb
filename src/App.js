@@ -4,6 +4,7 @@ import { API, Storage } from 'aws-amplify';
 import { withAuthenticator, AmplifySignOut } from '@aws-amplify/ui-react';
 import { listNotes } from './graphql/queries';
 import { createNote as createNoteMutation, deleteNote as deleteNoteMutation } from './graphql/mutations';
+import logo from "./assets/img/logo.png";
 
 
 const initialFormState = { name: '', description: '' }
@@ -54,7 +55,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>The Pups App</h1>
+      <img src={logo} alt="Logo" />
       <input
         type="file"
         onChange={onChange}
