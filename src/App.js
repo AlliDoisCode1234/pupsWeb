@@ -5,6 +5,8 @@ import { withAuthenticator, AmplifySignOut } from '@aws-amplify/ui-react';
 import { listNotes } from './graphql/queries';
 import { createNote as createNoteMutation, deleteNote as deleteNoteMutation } from './graphql/mutations';
 import logo from "./assets/img/logo.png";
+import Navabar from "./containers/navabar";
+
 
 
 const initialFormState = { name: '', description: '' }
@@ -55,7 +57,8 @@ function App() {
 
   return (
     <div className="App">
-      <img src={logo} alt="Logo" />
+
+      <img className="logo" src={logo} alt="Logo" />
       <input
         type="file"
         onChange={onChange}
