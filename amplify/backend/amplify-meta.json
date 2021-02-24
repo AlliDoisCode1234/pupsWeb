@@ -26,7 +26,7 @@
         "IdentityPoolName": "pweb6076767f_identitypool_6076767f__dev",
         "UserPoolName": "pweb6076767f_userpool_6076767f"
       },
-      "lastPushTimeStamp": "2021-02-24T04:57:43.201Z",
+      "lastPushTimeStamp": "2021-02-24T05:02:09.526Z",
       "providerMetadata": {
         "s3TemplateURL": "https://s3.amazonaws.com/amplify-pweb-dev-130022-deployment/amplify-cfn-templates/auth/pweb6076767f-cloudformation-template.yml",
         "logicalId": "authpweb6076767f"
@@ -56,7 +56,7 @@
         "s3TemplateURL": "https://s3.amazonaws.com/amplify-pweb-dev-130022-deployment/amplify-cfn-templates/api/cloudformation-template.json",
         "logicalId": "apipweb"
       },
-      "lastPushTimeStamp": "2021-02-24T04:57:43.210Z",
+      "lastPushTimeStamp": "2021-02-24T05:02:09.528Z",
       "lastPushDirHash": "45snLGz1Qu+2GW/EyWczxeODqYE="
     }
   }
