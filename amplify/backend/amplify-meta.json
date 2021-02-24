@@ -32,5 +32,23 @@
         "logicalId": "authpweb6076767f"
       }
     }
+  },
+  "api": {
+    "pweb": {
+      "service": "AppSync",
+      "providerPlugin": "awscloudformation",
+      "output": {
+        "authConfig": {
+          "defaultAuthentication": {
+            "authenticationType": "API_KEY",
+            "apiKeyConfig": {
+              "apiKeyExpirationDays": 7,
+              "description": "pups"
+            }
+          },
+          "additionalAuthenticationProviders": []
+        }
+      }
+    }
   }
 }
