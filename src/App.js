@@ -1,3 +1,4 @@
+import React from 'react';
 import "./App.css";
 import { Home } from "./pages";
 import { UserContextProvider } from "./contexts/user";
