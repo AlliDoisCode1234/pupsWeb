@@ -16,5 +16,23 @@
         "pweb6076767f": {}
       }
     }
+  },
+  "devtwo": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-pweb-devtwo-65501-authRole",
+      "UnauthRoleArn": "arn:aws:iam::053463520465:role/amplify-pweb-devtwo-65501-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::053463520465:role/amplify-pweb-devtwo-65501-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-pweb-devtwo-65501-deployment",
+      "UnauthRoleName": "amplify-pweb-devtwo-65501-unauthRole",
+      "StackName": "amplify-pweb-devtwo-65501",
+      "StackId": "arn:aws:cloudformation:us-east-1:053463520465:stack/amplify-pweb-devtwo-65501/54cb2fa0-7760-11eb-b56f-1245bb6cedee",
+      "AmplifyAppId": "du37dspicomk9"
+    },
+    "categories": {
+      "auth": {
+        "pweb6076767f": {}
+      }
+    }
   }
 }

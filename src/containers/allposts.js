@@ -2,11 +2,12 @@ import React, { useState, useEffect, useReducer } from 'react';
 
 import API, { graphqlOperation } from '@aws-amplify/api';
 
+
 import { listPostsSortedByTimestamp } from '../graphql/queries';
 import { onCreatePost } from '../graphql/subscriptions';
 
-import PostList from '../../components/postlist';
-import Sidebar from '../../containers/sidebar';
+import PostList from '../components/post-list';
+import Sidebar from './sidebar';
 
 const SUBSCRIPTION = 'SUBSCRIPTION';
 const INITIAL_QUERY = 'INITIAL_QUERY';

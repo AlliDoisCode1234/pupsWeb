@@ -1,14 +1,14 @@
 {
   "providers": {
     "awscloudformation": {
-      "AuthRoleName": "amplify-pweb-dev-130022-authRole",
-      "UnauthRoleArn": "arn:aws:iam::053463520465:role/amplify-pweb-dev-130022-unauthRole",
-      "AuthRoleArn": "arn:aws:iam::053463520465:role/amplify-pweb-dev-130022-authRole",
+      "AuthRoleName": "amplify-pweb-devtwo-65501-authRole",
+      "UnauthRoleArn": "arn:aws:iam::053463520465:role/amplify-pweb-devtwo-65501-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::053463520465:role/amplify-pweb-devtwo-65501-authRole",
       "Region": "us-east-1",
-      "DeploymentBucketName": "amplify-pweb-dev-130022-deployment",
-      "UnauthRoleName": "amplify-pweb-dev-130022-unauthRole",
-      "StackName": "amplify-pweb-dev-130022",
-      "StackId": "arn:aws:cloudformation:us-east-1:053463520465:stack/amplify-pweb-dev-130022/ad0395d0-746e-11eb-9090-0e1ad0c392f9",
+      "DeploymentBucketName": "amplify-pweb-devtwo-65501-deployment",
+      "UnauthRoleName": "amplify-pweb-devtwo-65501-unauthRole",
+      "StackName": "amplify-pweb-devtwo-65501",
+      "StackId": "arn:aws:cloudformation:us-east-1:053463520465:stack/amplify-pweb-devtwo-65501/54cb2fa0-7760-11eb-b56f-1245bb6cedee",
       "AmplifyAppId": "du37dspicomk9"
     }
   },
@@ -18,19 +18,20 @@
       "providerPlugin": "awscloudformation",
       "dependsOn": [],
       "customAuth": false,
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-pweb-devtwo-65501-deployment/amplify-cfn-templates/auth/pweb6076767f-cloudformation-template.yml",
+        "logicalId": "authpweb6076767f"
+      },
+      "lastPushTimeStamp": "2021-02-25T15:30:26.545Z",
       "output": {
-        "UserPoolId": "us-east-1_wXH2XNNf8",
-        "AppClientIDWeb": "7r4h6ak1vb83ikd0jnhg1il3am",
-        "AppClientID": "anasmdm9agaq5sle8fvashvai",
-        "IdentityPoolId": "us-east-1:00d9e0b3-62f6-4358-9166-f797e2b80952",
-        "IdentityPoolName": "pweb6076767f_identitypool_6076767f__dev",
+        "UserPoolId": "us-east-1_VRJ4HkT6O",
+        "AppClientIDWeb": "3an7s413mk0tlp2bbvohtv6pi9",
+        "AppClientID": "503arseg56jmaa9jtktojn22vb",
+        "IdentityPoolId": "us-east-1:772d8837-2a05-4a16-9ec1-4fe44be6af42",
+        "IdentityPoolName": "pweb6076767f_identitypool_6076767f__devtwo",
         "UserPoolName": "pweb6076767f_userpool_6076767f"
       },
-      "lastPushTimeStamp": "2021-02-25T10:26:27.565Z",
-      "providerMetadata": {
-        "s3TemplateURL": "https://s3.amazonaws.com/amplify-pweb-dev-130022-deployment/amplify-cfn-templates/auth/pweb6076767f-cloudformation-template.yml",
-        "logicalId": "authpweb6076767f"
-      }
+      "lastPushDirHash": "oyCyhnAxF/X/MIFazkHlConREps="
     }
   },
   "api": {
@@ -47,15 +48,15 @@
           },
           "additionalAuthenticationProviders": []
         },
-        "GraphQLAPIIdOutput": "ekzaa3cbbbhg7nsahjoepb7gzu",
-        "GraphQLAPIEndpointOutput": "https://34sdyf7yzbd2pf6s4ksfhzkt5q.appsync-api.us-east-1.amazonaws.com/graphql"
+        "GraphQLAPIIdOutput": "6e7erakisrbqhmkbx2ott7unu4",
+        "GraphQLAPIEndpointOutput": "https://yjm6ks6chnfmlmjfljje2q2fta.appsync-api.us-east-1.amazonaws.com/graphql"
       },
       "providerMetadata": {
-        "s3TemplateURL": "https://s3.amazonaws.com/amplify-pweb-dev-130022-deployment/amplify-cfn-templates/api/cloudformation-template.json",
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-pweb-devtwo-65501-deployment/amplify-cfn-templates/api/cloudformation-template.json",
         "logicalId": "apipweb"
       },
-      "lastPushTimeStamp": "2021-02-25T10:27:20.970Z",
-      "lastPushDirHash": "hfdWjI586UvHgR1YPtTgQIMzjD0="
+      "lastPushTimeStamp": "2021-02-25T15:30:26.548Z",
+      "lastPushDirHash": "/vaVfJNawNjJ7+YdKh65CW/fbKM="
     }
   },
   "storage": {
@@ -63,12 +64,12 @@
       "service": "S3",
       "providerPlugin": "awscloudformation",
       "providerMetadata": {
-        "s3TemplateURL": "https://s3.amazonaws.com/amplify-pweb-dev-130022-deployment/amplify-cfn-templates/storage/s3-cloudformation-template.json",
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-pweb-devtwo-65501-deployment/amplify-cfn-templates/storage/s3-cloudformation-template.json",
         "logicalId": "storageimagestorage"
       },
-      "lastPushTimeStamp": "2021-02-25T10:26:27.569Z",
+      "lastPushTimeStamp": "2021-02-25T15:30:26.550Z",
       "output": {
-        "BucketName": "pwebfcffac263cc7469db5b5f796c816c736130022-dev",
+        "BucketName": "pwebfcffac263cc7469db5b5f796c816c73665501-devtwo",
         "Region": "us-east-1"
       },
       "lastPushDirHash": "GLXau76WzU6iEh/yrX0/7KiwQ+Q="

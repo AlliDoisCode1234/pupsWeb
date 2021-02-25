@@ -14,8 +14,8 @@ import {
 import { makeStyles, createMuiTheme, ThemeProvider } from '@material-ui/core/styles';
 import CssBaseline from '@material-ui/core/CssBaseline';
 
-import AllPosts from '../src/allposts';
-import PostsBySpecifiedUser from './posts-by-specified-user';
+import AllPosts from './containers/allposts';
+import PostsBySpecifiedUser from './containers/posts-by-specified-user';
 
 import Amplify from '@aws-amplify/core';
 import PubSub from '@aws-amplify/pubsub'
