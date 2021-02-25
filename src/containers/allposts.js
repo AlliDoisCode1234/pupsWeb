@@ -52,7 +52,7 @@ export default function AllPosts() {
 
   const getAdditionalPosts = () => {
     if (nextToken === null) return; //Reached the last page
-    getPosts(ADDITIONAL_QUERY, nextToken);
+    getPosts(ADDITIONAL_QUERY, nextToken).catch(e => console.error(e));
   }
 
 
@@ -60,7 +60,7 @@ export default function AllPosts() {
   // Issues a subscription whenever createPost mutation is called, the Arrow Function passed to .subscribe is executed
   // returning Arrow Function to unsubscribe, the subscription gets closed when component is unmounted
   useEffect(() => {
-    getPosts(INITIAL_QUERY);
+    getPosts(INITIAL_QUERY).catch(e => console.error(e));
 
     const subscription = API.graphql(graphqlOperation(onCreatePost)).subscribe({
       next: (msg) => {

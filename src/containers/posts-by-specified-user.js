@@ -36,7 +36,7 @@ export default function PostsBySpecifiedUser() {
 
 
   // uses listPostsBySpecificOwner to set owner to userId take from URI parameter
-  const getPosts = async (type, nextToken = null) => {
+    const getPosts = async (type, nextToken = null) => {
     const res = await API.graphql(graphqlOperation(listPostsBySpecificOwner, {
       owner: userId,
       sortDirection: 'DESC',
@@ -51,12 +51,12 @@ export default function PostsBySpecifiedUser() {
 
   const getAdditionalPosts = () => {
     if (nextToken === null) return; //Reached the last page
-    getPosts(ADDITIONAL_QUERY, nextToken);
+    getPosts(ADDITIONAL_QUERY, nextToken).catch(e => console.error(e));
   }
 
 
   useEffect(() => {
-    getPosts(INITIAL_QUERY);
+    getPosts(INITIAL_QUERY).catch(e => console.error(e));
     
     const subscription = API.graphql(graphqlOperation(onCreatePost)).subscribe({
       next: (msg) => {
@@ -66,6 +66,7 @@ export default function PostsBySpecifiedUser() {
       }
     });
     return () => subscription.unsubscribe();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
 
