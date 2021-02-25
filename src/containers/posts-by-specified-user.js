@@ -56,7 +56,7 @@ export default function PostsBySpecifiedUser() {
 
   useEffect(() => {
     getPosts(INITIAL_QUERY);
-
+    
     const subscription = API.graphql(graphqlOperation(onCreatePost)).subscribe({
       next: (msg) => {
         const post = msg.value.data.onCreatePost;
