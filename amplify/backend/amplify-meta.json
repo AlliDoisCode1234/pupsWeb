@@ -26,7 +26,7 @@
         "IdentityPoolName": "pweb6076767f_identitypool_6076767f__dev",
         "UserPoolName": "pweb6076767f_userpool_6076767f"
       },
-      "lastPushTimeStamp": "2021-02-25T09:11:21.510Z",
+      "lastPushTimeStamp": "2021-02-25T10:26:27.565Z",
       "providerMetadata": {
         "s3TemplateURL": "https://s3.amazonaws.com/amplify-pweb-dev-130022-deployment/amplify-cfn-templates/auth/pweb6076767f-cloudformation-template.yml",
         "logicalId": "authpweb6076767f"
@@ -54,7 +54,7 @@
         "s3TemplateURL": "https://s3.amazonaws.com/amplify-pweb-dev-130022-deployment/amplify-cfn-templates/api/cloudformation-template.json",
         "logicalId": "apipweb"
       },
-      "lastPushTimeStamp": "2021-02-25T09:11:21.527Z",
+      "lastPushTimeStamp": "2021-02-25T10:27:20.970Z",
       "lastPushDirHash": "hfdWjI586UvHgR1YPtTgQIMzjD0="
     }
   },
@@ -66,7 +66,7 @@
         "s3TemplateURL": "https://s3.amazonaws.com/amplify-pweb-dev-130022-deployment/amplify-cfn-templates/storage/s3-cloudformation-template.json",
         "logicalId": "storageimagestorage"
       },
-      "lastPushTimeStamp": "2021-02-25T09:11:21.519Z",
+      "lastPushTimeStamp": "2021-02-25T10:26:27.569Z",
       "output": {
         "BucketName": "pwebfcffac263cc7469db5b5f796c816c736130022-dev",
         "Region": "us-east-1"

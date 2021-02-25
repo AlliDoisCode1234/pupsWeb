@@ -10,6 +10,16 @@ type Post
       }
       { allow: private, provider: userPools, operations: [read] }
     ]
+  )
+  @key(
+    name: "SortByTimestamp"
+    fields: ["type", "timestamp"]
+    queryField: "listPostsSortedByTimestamp"
+  )
+  @key(
+    name: "BySpecificOwner"
+    fields: ["owner", "timestamp"]
+    queryField: "listPostsBySpecificOwner"
   ) {
   type: String! # always set to 'post'. used in the SortByTimestamp GSI
   id: ID
