@@ -9,6 +9,7 @@ import { onCreatePost } from '../graphql/subscriptions';
 import PostList from '../components/post-list';
 import Sidebar from './sidebar';
 
+
 const SUBSCRIPTION = 'SUBSCRIPTION';
 const INITIAL_QUERY = 'INITIAL_QUERY';
 const ADDITIONAL_QUERY = 'ADDITIONAL_QUERY';
