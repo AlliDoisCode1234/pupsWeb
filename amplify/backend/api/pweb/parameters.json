@@ -1,3 +1,9 @@
 {
-  "AppSyncApiName": "pweb"
+  "AppSyncApiName": "pweb",
+  "AuthCognitoUserPoolId": {
+    "Fn::GetAtt": [
+      "authpweb6076767f",
+      "Outputs.UserPoolId"
+    ]
+  }
 }

@@ -18,11 +18,6 @@
       "providerPlugin": "awscloudformation",
       "dependsOn": [],
       "customAuth": false,
-      "providerMetadata": {
-        "s3TemplateURL": "https://s3.amazonaws.com/amplify-pweb-devtwo-65501-deployment/amplify-cfn-templates/auth/pweb6076767f-cloudformation-template.yml",
-        "logicalId": "authpweb6076767f"
-      },
-      "lastPushTimeStamp": "2021-02-25T15:30:26.545Z",
       "output": {
         "UserPoolId": "us-east-1_VRJ4HkT6O",
         "AppClientIDWeb": "3an7s413mk0tlp2bbvohtv6pi9",
@@ -30,6 +25,11 @@
         "IdentityPoolId": "us-east-1:772d8837-2a05-4a16-9ec1-4fe44be6af42",
         "IdentityPoolName": "pweb6076767f_identitypool_6076767f__devtwo",
         "UserPoolName": "pweb6076767f_userpool_6076767f"
+      },
+      "lastPushTimeStamp": "2021-02-27T15:31:41.975Z",
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-pweb-devtwo-65501-deployment/amplify-cfn-templates/auth/pweb6076767f-cloudformation-template.yml",
+        "logicalId": "authpweb6076767f"
       },
       "lastPushDirHash": "oyCyhnAxF/X/MIFazkHlConREps="
     }
@@ -51,26 +51,26 @@
         "GraphQLAPIIdOutput": "6e7erakisrbqhmkbx2ott7unu4",
         "GraphQLAPIEndpointOutput": "https://yjm6ks6chnfmlmjfljje2q2fta.appsync-api.us-east-1.amazonaws.com/graphql"
       },
+      "lastPushTimeStamp": "2021-02-27T15:38:39.054Z",
       "providerMetadata": {
         "s3TemplateURL": "https://s3.amazonaws.com/amplify-pweb-devtwo-65501-deployment/amplify-cfn-templates/api/cloudformation-template.json",
         "logicalId": "apipweb"
       },
-      "lastPushTimeStamp": "2021-02-25T15:30:26.548Z",
-      "lastPushDirHash": "/vaVfJNawNjJ7+YdKh65CW/fbKM="
+      "lastPushDirHash": "9UH1hUPmzC8x0Gf0/yf78ooWtAg="
     }
   },
   "storage": {
     "imagestorage": {
       "service": "S3",
       "providerPlugin": "awscloudformation",
-      "providerMetadata": {
-        "s3TemplateURL": "https://s3.amazonaws.com/amplify-pweb-devtwo-65501-deployment/amplify-cfn-templates/storage/s3-cloudformation-template.json",
-        "logicalId": "storageimagestorage"
-      },
-      "lastPushTimeStamp": "2021-02-25T15:30:26.550Z",
       "output": {
         "BucketName": "pwebfcffac263cc7469db5b5f796c816c73665501-devtwo",
         "Region": "us-east-1"
+      },
+      "lastPushTimeStamp": "2021-02-27T15:31:41.979Z",
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-pweb-devtwo-65501-deployment/amplify-cfn-templates/storage/s3-cloudformation-template.json",
+        "logicalId": "storageimagestorage"
       },
       "lastPushDirHash": "GLXau76WzU6iEh/yrX0/7KiwQ+Q="
     }
